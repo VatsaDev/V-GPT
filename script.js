@@ -1,7 +1,7 @@
 this.chatArray = [];
 
 function processUserInput() {
-  const vApiKey = "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";
+  const vApiKey = "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";
   var theprompt = document.getElementById("userInput").value;
   document.getElementById("output").innerHTML = "Processing...";
   fetch(`https://api.openai.com/v1/completions`, {
