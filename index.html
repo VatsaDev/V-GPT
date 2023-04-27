@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>GPT-3</title>
+    <title>GPT-3 JavaScript-only Calling</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,6 +17,7 @@
         <h1>V-GPT</h1>
     </div>
     <div class="input">
+        <input type="text" id="apiKey" placeholder="Type your key here"/> <br>
         <input type="text" id="userInput" placeholder="Type your message here"
             onkeydown="if (event.key == 'Enter') {processUserInput()}" /> <br>
         <button onclick="processUserInput()" id="send">Send <br>(Switch formatting)</button>
